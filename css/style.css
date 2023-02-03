@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+/* /* Paleta de colores *
+marron: D4A373
+beige: FAEDCD
+nude: FEFAE0
+verde: E9EDC9 */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'raleway', sans-serif;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: column;
+    background-color: #D4A373;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.header-flex ul {
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+
+.img-logo {
+    width: 150px;
+
+}
+
+
+.btn a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+/* contenido principal */
+
+.banner-hero {
+    background-image: url(https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    transition: height 3s;
+}
+
+.banner-hero:hover {
+    height: 100vh;
+}
+
+.banner-hero {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+/* MAIN */
+
+
+.img-secciones img {
+    width: 80vw;
+    position: center;
+    border-radius: 10px;
+    
+}
+
+.img-secciones {
+    display: inline;
+    position: center;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+article {
+    margin-top: 15px;
+}
+
+/* GRID */
+
+.seccion-grid {
+    display: grid;
+    justify-content: center;
+    
+
+}
+
+.seccion-grid h1 {
+    text-align: center;
+}
+
+
+
+/* footer */
+.container {
+    display: grid;
+    background-color: #FAEDCD;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Goals About-us Comunity";
+}
+
+.Goals {
+    grid-area: Goals;
+}
+
+.About-us {
+    grid-area: About-us;
+}
+
+.Comunity {
+    grid-area: Comunity;
+}
+
+
+.goal-smar {
+    background-color: bisque;
+    border: 1px;
+}
+
+/* nutrition page */ 
+
+.image-fondo{
+    background-image: url(https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: all 3s;
+}
+
+
+.contenedor-grid{
+    display: grid;
+background-color: #FAEDCD; opacity: 50%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "nutri-div"
+                         "dietas-div"
+                         "form-div";
+}
+
+
+/* LAPTOP */
+/* .contenedor-flex{
+    border-radius: 20px;
+    background-color: #FAEDCD; opacity: 50%;
+    height: 75vh;
+    width: 40vw;
+    font-size: 18px;
+    
+} */
+
+/* .nutribanner_hero:hover {
+    height: 100vh;
+} */
+
+
+@media (min-width:768px) {
+    .seccion-grid{  
+        display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr; 
+            max-width: 100vw;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "nutri products"
+              "fitness juice"
+              "spa spa";
+          }
+          .body-center{
+            width: 100vw;
+          }
+          /* .body-center{
+            max-width: 100vw;
+          } */
+
+          .img-secciones {
+            display:block;
+            position: center;
+            margin-left: 40px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+
+.img-secciones img{
+    width: 30vw;
+
+        }}
+          /*  */
+          /* .nutri { grid-area: nutri; }
+          
+          .products { grid-area: products; }
+          
+          .fitness { grid-area: fitness; }
+          
+          .juice { grid-area: juice; }
+          
+          .spa { grid-area: spa; }
+     }
+
+/* @media (min-width:768px) {
+    .seccion-grid{  
+        display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr; 
+            max-width: 100vw;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "nutri products"
+              "fitness juice"
+              "spa spa";
+          }
+          /*  */
+          /* .nutri { grid-area: nutri; }
+          
+          .products { grid-area: products; }
+          
+          .fitness { grid-area: fitness; }
+          
+          .juice { grid-area: juice; }
+          
+          .spa { grid-area: spa; }
+     } */ */
+
+     /* .contenedor-flex{
+    border-radius: 20px;
+    background-color: #FAEDCD; opacity: 50%;
+    height: 75vh;
+    width: 40vw;
+    font-size: 18px;
+    
+} */
+/*      
+.img-secciones{
+    width: ;
+} */
+
