@@ -154,42 +154,16 @@ article {
 }
 
 
-/* LAPTOP */
-/* .contenedor-flex{
-    border-radius: 20px;
-    background-color: #FAEDCD; opacity: 50%;
-    height: 75vh;
-    width: 40vw;
-    font-size: 18px;
-    
-} */
-
-/* .nutribanner_hero:hover {
-    height: 100vh;
-} */
 
 
 @media (min-width:768px) {
-    /* .seccion-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        max-width: 100vw;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "nutri products"
-            "fitness juice"
-            "spa spa";
-    } */
+   
 
     .body-center {
         width: 100vw;
     }
 
-    /* .body-center{
-            max-width: 100vw;
-          } */
+
 
           .img-secciones {
             display: inline;
@@ -227,57 +201,3 @@ article {
     width: 90vw;
 }
     }
-    /* .img-secciones {
-        width: 100vw;
-    ;
-    }
-    .img-secciones {
-        display: inline;
-        position: center;
-        margin-left: 40px;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-
-
-    .img-secciones img {
-        width: 50vw;
-        position: fixed;
-
-    } */
-    /* .seccion-grid {
-        display: grid;
-        justify-content: center;
-    }
-    
-    .seccion-grid h1 {
-        text-align: center;
-    }
-    
-    
-    .contenedor-flex {
-        border-radius: 20px;
-        background-color: #FAEDCD;
-        opacity: 50%;
-        height: 75vh;
-        width: 40vw;
-        font-size: 18px;
-    }
-
-    .img-secciones img {
-        width: 20vw;
-
-    }
-
-    .img-secciones {
-        display: block;
-        position: center;
-        margin-left: 40px;
-        margin-right: 20px;
-        margin-top: 20px; */
-    
-    
-    
-
-
-}
